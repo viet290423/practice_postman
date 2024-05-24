@@ -9,9 +9,9 @@
         - Kiểm thử tự động với công cụ Collection Runner.
         - Tích hợp các phương thức xác thực khác nhau.
         - Kiểm thử hiệu suất và bảo mật API.
-# Lựa chọn API để kiểm thử 
+## Lựa chọn API để kiểm thử 
     - API được lựa chọn là một api về sách của googleapis, api này cung cấp thông tin về các cuốn sách theo từng thể loại như Fiction, Anime, Action & Adventure hay là Horror
-# Phân tích API
+## Phân tích API
     - Điểm cuối chính: https://www.googleapis.com/books/v1/volumes
     - Phương thức: GET
     - Tham số bắt buộc: 
@@ -27,4 +27,4 @@
         - Phương thức: GET
         - Kết quả mong đợi: Mã trạng thái 200 và dữ liệu về các cuốn sách trong thể loại Fiction
         - Kết quả thực tế: 
-        - 2024-05-24-17-56-37.png
+        - ![](2024-05-24-17-58-01.png)
