@@ -27,16 +27,16 @@
     - Phương thức: GET
     - Kết quả mong đợi: Mã trạng thái 200 và dữ liệu về các cuốn sách trong thể loại Fiction
     - Kết quả thực tế: 
-    - 2024-05-24-18-05-50.png
+    - ![](anh1.png)
 + Trường hợp 2: Truy vấn với tên thể loại sách không hợp lệ
     - Điểm cuối: https://www.googleapis.com/books/v1/volumes?q=send
     - Phương thức: GET
     - Kết quả mong đợi: Mã trạng thái 400 và thông báo "Missing query"
     - Kết quả thực tế: 
-    - 2024-05-24-18-09-48.png
+    - ![](anh2.png)
 + Trường hợp 3: Truy vấn mà không có thể loại sách
     - Điểm cuối: https://www.googleapis.com/books/v1/volumes?q=
     - Phương thức: GET
     - Kết quả mong đợi: Mã trạng thái 400 và thông báo "Missing query"
     - Kết quả thực tế: 
-    - 2024-05-24-18-11-55.png
+    - ![](anh3.png)
