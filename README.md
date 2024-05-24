@@ -1,17 +1,17 @@
-## Sử dụng Postman để kiểm thử một API thực tế.
-## Giới thiệu về Postman
+# Sử dụng Postman để kiểm thử một API thực tế.
+# Giới thiệu về Postman
 1. Postman là gì?
-    - Postman là một công cụ API platform cho phép phát triển, kiểm thử và quản lý API. Nó cung cấp giao diện đồ họa thân thiện giúp người dùng dễ dàng gửi các yêu cầu HTTP và xem phản hồi từ API.
+- Postman là một công cụ API platform cho phép phát triển, kiểm thử và quản lý API. Nó cung cấp giao diện đồ họa thân thiện giúp người dùng dễ dàng gửi các yêu cầu HTTP và xem phản hồi từ API.
 2. Các tính năng chính của Postman: 
-    - Gửi các yêu cầu HTTP (GET, POST, PUT, DELETE).
-    - Lưu trữ và quản lý các bộ sưu tập yêu cầu.
-    - Sử dụng biến và môi trường để quản lý dữ liệu động.
-    - Kiểm thử tự động với công cụ Collection Runner.
-    - Tích hợp các phương thức xác thực khác nhau.
-    - Kiểm thử hiệu suất và bảo mật API.
-## Lựa chọn API để kiểm thử 
+- Gửi các yêu cầu HTTP (GET, POST, PUT, DELETE).
+- Lưu trữ và quản lý các bộ sưu tập yêu cầu.
+- Sử dụng biến và môi trường để quản lý dữ liệu động.
+- Kiểm thử tự động với công cụ Collection Runner.
+- Tích hợp các phương thức xác thực khác nhau.
+- Kiểm thử hiệu suất và bảo mật API.
+# Lựa chọn API để kiểm thử 
 - API được lựa chọn là một api về sách của googleapis, api này cung cấp thông tin về các cuốn sách theo từng thể loại như Fiction, Anime, Action & Adventure hay là Horror
-## Phân tích API
+# Phân tích API
 - Điểm cuối chính: https://www.googleapis.com/books/v1/volumes
 - Phương thức: GET
 - Tham số bắt buộc: 
@@ -27,4 +27,4 @@
     - Phương thức: GET
     - Kết quả mong đợi: Mã trạng thái 200 và dữ liệu về các cuốn sách trong thể loại Fiction
     - Kết quả thực tế: 
-    - 
+    - 2024-05-24-18-05-50.png
